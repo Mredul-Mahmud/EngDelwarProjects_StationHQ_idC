@@ -1,0 +1,28 @@
+return [
+<?php
+return [
+    'Duty Clerk:' => 'Duty Clerk:',
+    'Vehicle Sticker Info:' => 'Vehicle Sticker Info:',   
+    'Today:' => 'Today:',
+    'Login' => 'Login',
+    'Register' => 'Register',
+    'Home' => 'Home',
+    'Apply For Sticker' => 'Apply For Sticker',
+    'Policy' => 'Policy',
+    'Contact' => 'Contact',
+    'Sticker Info Check' => 'Sticker Info Check',
+    'Apply for ID Card' => 'Apply for ID Card',
+    'Family ID Card' => 'Family ID Card',
+    'Batman, Maidservant & Other ID Card' => 'Batman, Maidservant & Other ID Card',
+    'School Bus Card' => 'School Bus Card',
+    'CIVIL Permanent & Temporary Employee' => 'CIVIL Permanent & Temporary Employee',
+    'Unit Login' => 'Unit Login',
+    'Graveyard' => 'Graveyard',
+    'Graveyard Allotment' => 'Graveyard Allotment',
+    'Graveyard Policy' => 'Graveyard Policy',
+    'Graveyard Application Form' => 'Graveyard Application Form',
+    'Photo Gallery' => 'Photo Gallery',
+    'Staff Org' => 'Staff Org',
+    'History' => 'History',
+    'Others' => 'Others',
+];

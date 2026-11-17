@@ -1,0 +1,1235 @@
+@font-face {
+    font-family: 'SutonnyMJ';
+    src: url('/assets/admins/fonts/SutonnyMJ.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tiro+Bangla:ital@0;1&display=swap');
+
+body {
+    background: #eee;
+    font-family: "Raleway", sans-serif;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    place-content: center center; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* .sticker-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px !important;
+} */
+
+/* h3.rule-title {
+    font-size: 14px;
+}
+
+.rules {
+    padding-left: 16px;
+}
+
+ul.rules li {
+    font-size: 9px;
+    line-height: 11px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 4px;
+} */
+
+@media print {
+body{
+    margin: 0 !important;
+    padding:  0 !important;
+    box-sizing: border-box;
+}
+
+    .sticker-container {
+        width: 345.6px;
+        height: 345.6px;
+        text-align: center;
+        color: #3a1a00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        border: 1px solid black;
+    
+    }
+
+    .sticker-size {
+        position: relative;
+        width: 326.4px;
+        height: 326.4px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .qr-section {
+        width: 60px;
+        height: 60px;
+        background-color: #fff;
+        padding: 3px;
+    }
+
+    .qr-section svg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Content styles Start */
+    .content {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .content-position-a1 {
+        top: 38%;
+        left: 50%;
+    }
+
+    .content-position-a2 {
+        top: 38.9%;
+        left: 53%;
+    }
+
+    .content-position-a3 {
+        top: 33%;
+        left: 50%;
+    }
+
+    .content-position-a4-staff {
+        top: 42%;
+        left: 53%;
+    }
+
+    .content-position-a4 {
+        top: 40%;
+        left: 53%;
+    }
+
+    .content-position-b1 {
+        top: 58%;
+        left: 51%;
+    }
+
+    .content-position-b2 {
+        top: 39%;
+        left: 50%;
+    }
+
+    .content-position-b3 {
+        top: 44%;
+        left: 50%;
+    }
+
+    .content-position-b4 {
+        top: 42%;
+        left: 50%;
+    }
+
+    .content-position-b5 {
+        top: 50%;
+        left: 50%;
+    }
+
+    .content-position-d1 {
+        top: 50%;
+        left: 50%;
+    }
+
+    .content-position-d2 {
+        top: 50%;
+        left: 50%;
+    }
+
+    .content-position-e {
+        top: 31%;
+        left: 50%;
+    }
+
+    .content-position-f {
+        top: 38%;
+        left: 50%;
+    }
+
+    .content-position-m {
+        top: 41.5%;
+        left: 50%;
+    }
+
+    .content-position-m1 {
+        top: 41.5%;
+        left: 50%;
+    }
+
+    .content-position-t {
+        top: 19%;
+        left: 50%;
+    }
+
+    .content-position-t1 {
+        top: 18%;
+        left: 51%;
+    }
+
+    .content-position-x-army-chief {
+        top: 54%;
+        left: 21%;
+    }
+
+    /* Year Styles Start */
+    .year {
+        font-family: 'SutonnyMJ', sans-serif;
+        font-weight: 900;
+        letter-spacing: -2px;
+    }
+
+    .year-a1 {
+        font-size: 60px;
+        color: #ffb31d;
+    }
+
+    .year-a2 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 900;
+        margin: 0 2px;
+    }
+
+    .year-a3 {
+        font-size: 70px;
+        color: rgb(115, 1, 61);
+        font-weight: 900;
+    }
+
+    .year-a4-staff {
+        font-size: 60px;
+        color: rgb(237, 203, 2);
+        font-weight: 900;
+    }
+
+    .year-a4 {
+        font-size: 60px;
+        color: #000;
+        font-weight: 900;
+    }
+
+    .year-b1 {
+        font-size: 60px;
+        color: rgb(63, 0, 109);
+        font-weight: 900;
+    }
+
+    .year-b2 {
+        font-size: 60px;
+        color: rgb(139, 13, 6);
+        font-weight: 900;
+    }
+
+    .year-b3 {
+        font-size: 60px;
+        color: rgb(237, 203, 2);
+        font-weight: 900;
+    }
+
+    .year-b4 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .year-b5 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .year-d1 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 900;
+        letter-spacing: -2px;
+    }
+
+    .year-d2 {
+        font-size: 60px;
+        color: rgb(140, 15, 3);
+        font-weight: 900;
+        letter-spacing: -2px;
+    }
+
+    .year-e {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .year-f {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .year-m {
+        font-size: 48px;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .year-m1 {
+        font-size: 48px;
+        color: #000;
+        font-weight: 900;
+    }
+
+    .year-t {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    .year-t1 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 900;
+    }
+
+    /* Vehicle Styles Start */
+    .vehicle {
+        position: absolute;
+        width: 90%;
+        font-size: 22px;
+        padding: 4px;
+        transform: translateX(-50%);
+        font-weight: 700;
+    }
+
+    .vehicle-position-a1 {
+        top: 63%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 254, 1);
+        font-size: 21px;
+    }
+
+    .vehicle-position-a2 {
+        width: 83%;
+        top: 67%;
+        left: 49.5%;
+        color: #000;
+        background-color: rgb(255, 254, 1);
+        font-size: 20px;
+    }
+
+    .vehicle-position-a3 {
+        width: 88%;
+        top: 62%;
+        left: 50%;
+        color: #fff;
+        background-color: rgb(18, 123, 9);
+        font-size: 22px;
+    }
+
+    .vehicle-position-a4-staff {
+        width: 86.5%;
+        top: 73%;
+        left: 51.5%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 23px;
+    }
+
+    .vehicle-position-a4 {
+        width: 88%;
+        top: 73%;
+        left: 51%;
+        color: #fff;
+        background-color: rgb(0, 54, 22);
+        font-size: 23px;
+    }
+
+    .vehicle-position-b1 {
+        width: 85.5%;
+        top: 83%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 23px;
+    }
+
+    .vehicle-position-b2 {
+        width: 85.5%;
+        top: 78%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 21px;
+    }
+
+    .vehicle-position-b3 {
+        width: 79.5%;
+        top: 68%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 22px;
+    }
+
+    .vehicle-position-b4 {
+        width: 81.5%;
+        top: 68%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 21px;
+    }
+
+    .vehicle-position-b5 {
+        width: 90.5%;
+        top: 80%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 23px;
+    }
+
+    .vehicle-position-d1 {
+        width: 83.5%;
+        top: 76%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 21px;
+    }
+
+    .vehicle-position-d2 {
+        width: 83.5%;
+        top: 76%;
+        left: 50%;
+        color: #fff;
+        background-color: rgb(18, 123, 9);
+        font-size: 21px;
+    }
+
+    .vehicle-position-e {
+        width: 89.5%;
+        top: 59%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 22px;
+    }
+
+    .vehicle-position-f {
+        width: 97.5%;
+        top: 67%;
+        left: 50%;
+        color: #fff;
+        background-color: rgb(18, 123, 9);
+        font-size: 22px;
+    }
+
+    .vehicle-position-m {
+        width: 50%;
+        top: 60%;
+        left: 51%;
+        color: #fff;
+        font-size: 18px;
+        padding: 7px;
+    }
+
+    .vehicle-position-m1 {
+        width: 50%;
+        top: 60%;
+        left: 51%;
+        color: rgb(19, 1, 124);
+        font-size: 18px;
+        padding: 7px;
+    }
+
+    .vehicle-position-t {
+        width: 82%;
+        top: 67%;
+        left: 50%;
+        color: #fff;
+        background-color: rgb(18, 123, 9);
+        font-size: 20px;
+    }
+
+    .vehicle-position-t1 {
+        width: 83.5%;
+        top: 44%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 20px;
+    }
+
+    .vehicle-position-x-army-chief {
+        width: 54%;
+        top: 69%;
+        left: 50%;
+        color: #000;
+        background-color: rgb(255, 255, 0);
+        font-size: 13px;
+    }
+
+    /* Serial Styles Start  */
+    .serial {
+        position: absolute;
+        transform: translateX(-50%);
+        font-size: 24px;
+        width: 110px;
+    }
+
+    .serial-a1 {
+        top: 42%;
+        right: -23px;
+        color: yellow;
+        transform: rotate(-90deg);
+    }
+
+    .serial-a2 {
+        top: 45%;
+        right: -33px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-a3 {
+        top: 42%;
+        right: -40px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-a4-staff {
+        top: 40%;
+        right: -41px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-a4 {
+        top: 42%;
+        right: -42px;
+        color: #000;
+        transform: rotate(-90deg);
+    }
+
+    .serial-b1 {
+        top: 47%;
+        right: 29px;
+        color: rgb(63, 0, 109);
+        transform: rotate(-115deg);
+        font-size: 18px;
+    }
+
+    .serial-b2 {
+        top: 44%;
+        right: -35px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-b3 {
+        top: 44%;
+        right: -35px;
+        color: #000;
+        transform: rotate(-90deg);
+    }
+
+    .serial-b4 {
+        top: 44%;
+        right: -30px;
+        color: rgb(252, 171, 2);
+        transform: rotate(-90deg);
+    }
+
+    .serial-b5 {
+        top: 44%;
+        right: -42px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-d1 {
+        top: 44%;
+        right: -17px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-d2 {
+        top: 44%;
+        right: -17px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-e {
+        top: 40%;
+        right: -40px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-f {
+        top: 44%;
+        right: -34px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-m {
+        top: 34%;
+        right: 25px;
+        color: red;
+        font-size: 18px;
+        transform: rotate(-113deg);
+    }
+
+    .serial-m1 {
+        top: 33%;
+        right: 27px;
+        color: red;
+        font-size: 18px;
+        transform: rotate(-117deg);
+    }
+
+    .serial-t {
+        top: 48%;
+        right: -36px;
+        color: #12db12;
+        transform: rotate(-90deg);
+    }
+
+    .serial-t1 {
+        top: 70%;
+        right: 18px;
+        color: #fff;
+        transform: rotate(-90deg);
+    }
+
+    .serial-x-army-chief {
+        top: 50%;
+        right: 8%;
+        color: #000;
+        transform: rotate(-90deg);
+        font-size: 18px;
+    }
+}
+
+.sticker-container {
+    width: 345.6px;
+    height: 345.6px;
+    text-align: center;
+    color: #3a1a00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    border: 1px solid black;
+}
+
+.sticker-size {
+    position: relative;
+    width: 326.4px;
+    height: 326.4px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.qr-section {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    padding: 3px;
+}
+
+.qr-section-a2 {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    padding: 3px;
+}
+
+.qr-section svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.qr-section-a2 svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Content styles Start */
+.content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.content-position-a1 {
+    top: 38%;
+    left: 50%;
+}
+
+.content-position-a2 {
+    top: 38.9%;
+    left: 53%;
+}
+
+.content-position-a3 {
+    top: 33%;
+    left: 50%;
+}
+
+.content-position-a4-staff {
+    top: 42%;
+    left: 53%;
+}
+
+.content-position-a4 {
+    top: 40%;
+    left: 53%;
+}
+
+.content-position-b1 {
+    top: 58%;
+    left: 51%;
+}
+
+.content-position-b2 {
+    top: 39%;
+    left: 50%;
+}
+
+.content-position-b3 {
+    top: 44%;
+    left: 50%;
+}
+
+.content-position-b4 {
+    top: 42%;
+    left: 50%;
+}
+
+.content-position-b5 {
+    top: 50%;
+    left: 50%;
+}
+
+.content-position-d1 {
+    top: 50%;
+    left: 50%;
+}
+
+.content-position-d2 {
+    top: 50%;
+    left: 50%;
+}
+
+.content-position-e {
+    top: 31%;
+    left: 50%;
+}
+
+.content-position-f {
+    top: 38%;
+    left: 50%;
+}
+
+.content-position-m {
+    top: 41.5%;
+    left: 50%;
+}
+
+.content-position-m1 {
+    top: 41.5%;
+    left: 50%;
+}
+
+.content-position-t {
+    top: 19%;
+    left: 50%;
+}
+
+.content-position-t1 {
+    top: 18%;
+    left: 51%;
+}
+
+.content-position-x-army-chief {
+    top: 54%;
+    left: 21%;
+}
+
+/* Year Styles Start */
+.year {
+    font-family: 'SutonnyMJ', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.year-a1 {
+    font-size: 60px;
+    color: #ffb31d;
+}
+
+.year-a2 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+    margin: 0 2px;
+}
+
+.year-a3 {
+    font-size: 70px;
+    color: rgb(115, 1, 61);
+    font-weight: 900;
+}
+
+.year-a4-staff {
+    font-size: 60px;
+    color: rgb(237, 203, 2);
+    font-weight: 900;
+}
+
+.year-a4 {
+    font-size: 60px;
+    color: #000;
+    font-weight: 900;
+}
+
+.year-b1 {
+    font-size: 60px;
+    color: rgb(63, 0, 109);
+    font-weight: 900;
+}
+
+.year-b2 {
+    font-size: 60px;
+    color: rgb(139, 13, 6);
+    font-weight: 900;
+}
+
+.year-b3 {
+    font-size: 60px;
+    color: rgb(237, 203, 2);
+    font-weight: 900;
+}
+
+.year-b4 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.year-b5 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.year-d1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.year-d2 {
+    font-size: 60px;
+    color: rgb(140, 15, 3);
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.year-e {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.year-f {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.year-m {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.year-m1 {
+    font-size: 48px;
+    color: #000;
+    font-weight: 900;
+}
+
+.year-t {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.year-t1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+
+/* Vehicle Styles Start */
+.vehicle {
+    position: absolute;
+    width: 90%;
+    font-size: 22px;
+    padding: 4px;
+    transform: translateX(-50%);
+    font-weight: 700;
+}
+
+.vehicle-position-a1 {
+    top: 63%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 254, 1);
+    font-size: 21px;
+}
+
+.vehicle-position-a2 {
+    width: 83%;
+    top: 67%;
+    left: 49.5%;
+    color: #000;
+    background-color: rgb(255, 254, 1);
+    font-size: 20px;
+}
+
+.vehicle-position-a3 {
+    width: 88%;
+    top: 62%;
+    left: 50%;
+    color: #fff;
+    background-color: rgb(18, 123, 9);
+    font-size: 22px;
+}
+
+.vehicle-position-a4-staff {
+    width: 86.5%;
+    top: 73%;
+    left: 51.5%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 23px;
+}
+
+.vehicle-position-a4 {
+    width: 88%;
+    top: 73%;
+    left: 51%;
+    color: #fff;
+    background-color: rgb(0, 54, 22);
+    font-size: 23px;
+}
+
+.vehicle-position-b1 {
+    width: 85.5%;
+    top: 83%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 23px;
+}
+
+.vehicle-position-b2 {
+    width: 85.5%;
+    top: 78%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 21px;
+}
+
+.vehicle-position-b3 {
+    width: 79.5%;
+    top: 68%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 22px;
+}
+
+.vehicle-position-b4 {
+    width: 81.5%;
+    top: 68%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 21px;
+}
+
+.vehicle-position-b5 {
+    width: 90.5%;
+    top: 80%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 23px;
+}
+
+.vehicle-position-d1 {
+    width: 83.5%;
+    top: 76%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 21px;
+}
+
+.vehicle-position-d2 {
+    width: 83.5%;
+    top: 76%;
+    left: 50%;
+    color: #fff;
+    background-color: rgb(18, 123, 9);
+    font-size: 21px;
+}
+
+.vehicle-position-e {
+    width: 89.5%;
+    top: 59%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 22px;
+}
+
+.vehicle-position-f {
+    width: 97.5%;
+    top: 67%;
+    left: 50%;
+    color: #fff;
+    background-color: rgb(18, 123, 9);
+    font-size: 22px;
+}
+
+.vehicle-position-m {
+    width: 50%;
+    top: 60%;
+    left: 51%;
+    color: #fff;
+    font-size: 18px;
+    padding: 7px;
+}
+
+.vehicle-position-m1 {
+    width: 50%;
+    top: 60%;
+    left: 51%;
+    color: rgb(19, 1, 124);
+    font-size: 18px;
+    padding: 7px;
+}
+
+.vehicle-position-t {
+    width: 82%;
+    top: 67%;
+    left: 50%;
+    color: #fff;
+    background-color: rgb(18, 123, 9);
+    font-size: 20px;
+}
+
+.vehicle-position-t1 {
+    width: 83.5%;
+    top: 44%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 20px;
+}
+
+.vehicle-position-x-army-chief {
+    width: 54%;
+    top: 69%;
+    left: 50%;
+    color: #000;
+    background-color: rgb(255, 255, 0);
+    font-size: 13px;
+}
+
+/* Serial Styles Start  */
+.serial {
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 24px;
+    width: 110px;
+}
+
+.serial-a1 {
+    top: 42%;
+    right: -23px;
+    color: yellow;
+    transform: rotate(-90deg);
+}
+
+.serial-a2 {
+    top: 45%;
+    right: -33px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-a3 {
+    top: 42%;
+    right: -40px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-a4-staff {
+    top: 40%;
+    right: -41px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-a4 {
+    top: 42%;
+    right: -42px;
+    color: #000;
+    transform: rotate(-90deg);
+}
+
+.serial-b1 {
+    top: 47%;
+    right: 29px;
+    color: rgb(63, 0, 109);
+    transform: rotate(-115deg);
+    font-size: 18px;
+}
+
+.serial-b2 {
+    top: 44%;
+    right: -35px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-b3 {
+    top: 44%;
+    right: -35px;
+    color: #000;
+    transform: rotate(-90deg);
+}
+
+.serial-b4 {
+    top: 44%;
+    right: -30px;
+    color: rgb(252, 171, 2);
+    transform: rotate(-90deg);
+}
+
+.serial-b5 {
+    top: 44%;
+    right: -42px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-d1 {
+    top: 44%;
+    right: -17px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-d2 {
+    top: 44%;
+    right: -17px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-e {
+    top: 40%;
+    right: -40px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-f {
+    top: 44%;
+    right: -34px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-m {
+    top: 34%;
+    right: 25px;
+    color: red;
+    font-size: 18px;
+    transform: rotate(-113deg);
+}
+
+.serial-m1 {
+    top: 33%;
+    right: 27px;
+    color: red;
+    font-size: 18px;
+    transform: rotate(-117deg);
+}
+
+.serial-t {
+    top: 48%;
+    right: -36px;
+    color: #12db12;
+    transform: rotate(-90deg);
+}
+
+.serial-t1 {
+    top: 70%;
+    right: 18px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.serial-x-army-chief {
+    top: 50%;
+    right: 8%;
+    color: #000;
+    transform: rotate(-90deg);
+    font-size: 18px;
+}

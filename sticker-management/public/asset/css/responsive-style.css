@@ -1,0 +1,199 @@
+
+/* Responsive Styles */
+
+@media (max-width: 991px) {
+    .header-top .htop-left, .header-top .htop-right ul {
+        justify-content: center;
+    }
+    .header-top .htop-right ul {
+        margin-top: 5px;
+    }
+    
+    .main-slider .single-slide .slide-text h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main-slider .single-slide .slide-text h3 span.open2018 {
+        font-size: 40px;
+    }
+
+    /* Navbar Toggle Styling */
+    .navbar-toggler {
+        margin: 10px auto;
+        border: 1px solid #fff;
+        padding: 5px 12px;
+    }
+    
+    .main-menu-wrap {
+        flex-direction: column;
+    }
+    
+    /* Mobile/Tablet Menu */
+    .main-menu-section {
+        padding: 0;
+    }
+
+    .main-menu-section .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-menu-section .col-lg-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-menu {
+        width: 100%;
+        flex-direction: column;
+        background-color: #222; /* Ensure background color */
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    
+    nav.main-menu-wrap ul.main-menu {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    nav.main-menu-wrap ul.main-menu > li {
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding-left: 10px;
+    }
+    
+    nav.main-menu-wrap ul.main-menu a {
+        width: 100%;
+        text-align: left;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        display: block;
+        color: #fff; /* Ensure text color */
+    }
+    
+    /* Submenu on Mobile */
+    nav.main-menu-wrap ul.main-menu ul.submenu {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-width: 100%;
+        box-shadow: none;
+        display: none; /* Hidden by default, toggled via JS */
+        background: rgba(0,0,0,0.2);
+    }
+    
+    nav.main-menu-wrap ul.main-menu ul.submenu li a {
+        padding-left: 40px;
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Header adjustments */
+    .logo-menu {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .logo-menu .logo {
+        margin-bottom: 15px;
+    }
+    
+    .contact-info-1 {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Make mobile menu full width */
+    .main-menu-section {
+        padding: 0;
+    }
+
+    .main-menu-section .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-menu-section .col-lg-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Override old mobile menu behavior: use Bootstrap collapse instead */
+    nav.main-menu-wrap ul.main-menu {
+        display: block;
+        /* position: static; */
+        width: 100%;
+        background: #3b930f;
+        border-top: 1px solid rgba(221, 221, 221, 0.32);
+    }
+
+    /* Default: level-2 submenus open to the right */
+    nav.main-menu-wrap ul.main-menu ul.submenu ul.submenu {
+        position: absolute;
+        left: 100%;
+        top: 0;
+        width: max-content;
+        min-width: 160px;
+    }
+
+    /* EXCEPTION on small devices:
+       For ID Card group (fid/otherid/bus/civil submenus), show BELOW parent item */
+    nav.main-menu-wrap ul.main-menu ul.submenu ul.submenu.fid-submenu,
+    nav.main-menu-wrap ul.main-menu ul.submenu ul.submenu.otherid-submenu,
+    nav.main-menu-wrap ul.main-menu ul.submenu ul.submenu.bus-submenu,
+    nav.main-menu-wrap ul.main-menu ul.submenu ul.submenu.civil-submenu {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        min-width: 100%;
+    }
+    
+    
+    /* Slider Text */
+    .main-slider .single-slide .slide-text h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .main-slider .single-slide .slide-text h3 span.open2018 {
+        font-size: 30px;
+    }
+    
+    /* General Typography */
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    
+    /* Gallery/Cards */
+    .sta_gallery-wrap {
+        margin-bottom: 30px;
+    }
+    
+    /* Welcome Video Section */
+    .welcome-video {
+        flex-direction: column;
+    }
+    
+    .welcome-video .pcommander img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Table overflow */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    /* Adjust footer widgets */
+    .footer-widgets .col-md-3 {
+        margin-bottom: 30px;
+    }
+}
